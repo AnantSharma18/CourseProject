@@ -113,6 +113,46 @@ The most accurate model for political tweet prediction i.e. Linear Classificatio
 
 ## Installation Guide
 
-The project makes use of Jupyter Notebook to implement the different models. The following pre-requisites are required to run the code
-Python3 
-Libraries
+The project makes use of Jupyter Notebook to implement the different models. The following steps to install and run the code on your local machine.
+
+### Running the Helper Notebooks
+
+1. Clone this repo onto your local machine.
+2. You will need the following pre-requisites installed in your local environment: `python3, jupyter notebook, numpy, pandas, keras, tensorflow, sklearn, spacy, ntlk, string, pickle, twitter`
+3. Once you have made sure that the above mentioned packages are installed in you environment, you can go ahead and launch jupyter notebook
+4. Each Helper Notebook can be executed seperately to get results for different models.
+5. In each of the Helper Notebook, the variable `currentDF` can be changed to either `OffensiveLangDF | spamSmsDF | politicalDF` to run the model on different datasets
+
+
+Note : You might have to download the spacy 'en' model seperately in order to run the notebooks
+
+### Predicting Political Tweets
+
+1. The pre-trained model to predict political tweets is already saved in the folder 'Saved Model' under the name `LR_Pol.plk`
+2. In order to run the political tweet prediction notebook, you will have to first obtain credentials from Twitter API. 
+3. The `consumer_key, consumer_secret, access_token` and `access_token_secret` variables need to be replaced with your unique Twitter API credentials. 
+4. Guide to obtain Twitter API credentials can be found under references.
+5. Once you have replaced the `XXXX` with your Twitter API credentials, you can execute the notebook to obtain 4 different tweets using the tracking list and classfiy them into pol / notpol using the pre-trained model
+6. The `trackingList1` and `trackingList2` lists can be edited to stream different tweets.
+7. The `n_tweets` variable can be changed to the number of tweets you wish to obtain.
+	
+## Contribution
+Project by `Anant Ashutosh Sharma`
+Free Topic : `Text and Tweet Classification using Machine Learning`
+Course : `CS 410`
+NetID : `anantas2`
+
+The following documentation is submitted to the GitHub Repo
+
+       1. Project Proposal
+       2. Project Progress Report
+       3. Self-Evaluation Report 
+
+## References
+
+ - https://rapidapi.com/blog/how-to-use-the-twitter-api/
+ - http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/
+ - https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data  
+ - https://github.com/rohitgupta42/polity_senti
+ - https://www.usna.edu/Users/cs/nchamber/data/twitter/
+ - scionoftech GitHub Repo for helping in eaxtracting different features for models
