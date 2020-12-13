@@ -14,6 +14,19 @@ The following Classifications have been accomplished in this project:
 > section, the project focussed more on the different ways machine
 > learning can be used to perform text classification.
 
+## Contribution
+Project by `Anant Ashutosh Sharma`
+Free Topic : `Text and Tweet Classification using Machine Learning`
+Course : `CS 410`
+NetID : `anantas2`
+
+The following documentation and demo is submitted to the GitHub Repo
+
+       1. Project Proposal
+       2. Project Progress Report
+       3. Self-Evaluation Report 
+       4. Demo (Video)
+
 ## Datasets
 The details for the datasets is as follows:
  - **SMS Spam Collection**
@@ -142,17 +155,6 @@ Note : You might have to download the spacy 'en' model seperately in order to ru
 6. The `trackingList1` and `trackingList2` lists can be edited to stream different tweets.
 7. The `n_tweets` variable can be changed to the number of tweets you wish to obtain.
 	
-## Contribution
-Project by `Anant Ashutosh Sharma`
-Free Topic : `Text and Tweet Classification using Machine Learning`
-Course : `CS 410`
-NetID : `anantas2`
-
-The following documentation is submitted to the GitHub Repo
-
-       1. Project Proposal
-       2. Project Progress Report
-       3. Self-Evaluation Report 
 
 ## Limitations
 The datasets being used to train the model can be further improved. They currently have very niche examples of the catergories. For instance, the political tweets dataset only contains political tweets pertaining to the Indian Context. Further, the number of training records are less. A higher number of traininf records may allow the models to perform better.
