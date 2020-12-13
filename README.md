@@ -27,6 +27,8 @@ The following documentation and demo is submitted to the GitHub Repo
        3. Self-Evaluation Report 
        4. Demo (Video)
 
+Demo Video : https://uillinoisedu-my.sharepoint.com/:v:/g/personal/anantas2_illinois_edu/ETcTrozhFLVFjqRJjMrkPTkBk-iMH54QljVBzl-KbDYWaA?e=7r6QDU
+
 ## Datasets
 The details for the datasets is as follows:
  - **SMS Spam Collection**
