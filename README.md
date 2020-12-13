@@ -8,6 +8,12 @@ The following Classifications have been accomplished in this project:
 2. Classify text into different hate-speech and offensive language category 
 3. Classify political tweets (Indian context) using a custom dataset
 
+> Note : The purpose of this project is to present the different machine
+> learning implementations to classify textual data. While the
+> accuracies of the different models are mentioned in the result
+> section, the project focussed more on the different ways machine
+> learning can be used to perform text classification.
+
 ## Datasets
 The details for the datasets is as follows:
  - **SMS Spam Collection**
@@ -148,6 +154,13 @@ The following documentation is submitted to the GitHub Repo
        2. Project Progress Report
        3. Self-Evaluation Report 
 
+## Limitations
+The datasets being used to train the model can be further improved. They currently have very niche examples of the catergories. For instance, the political tweets dataset only contains political tweets pertaining to the Indian Context. Further, the number of training records are less. A higher number of traininf records may allow the models to perform better.
+
+The Convulutional Neural Network (CNN) implemented in this project is a simple and generic one. A much more complex and accurate CNN can be designed and fine tuned as per the requirements of each of the datasets. 
+
+These limitations are present in this project since the purpose of this project is not to present any accurate model to classify text objects, but to present the different methods and ways in which machine learning models can be used to classify textual data. 
+
 ## References
 
  - https://rapidapi.com/blog/how-to-use-the-twitter-api/
@@ -156,3 +169,4 @@ The following documentation is submitted to the GitHub Repo
  - https://github.com/rohitgupta42/polity_senti
  - https://www.usna.edu/Users/cs/nchamber/data/twitter/
  - scionoftech GitHub Repo for helping in eaxtracting different features for models
+
